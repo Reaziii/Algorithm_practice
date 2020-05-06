@@ -66,8 +66,9 @@ input;
         reset(dp,-1);
         int x,y;
         cin>>x>>y;
-
+        //For using dp use this function
 //        cout<<sol(x-1,y-1);
+      //Next using matrix :)
         int matrix[x][y];
         for(int i=0;i<x;i++){
             for(int j=0;j<y;j++){
